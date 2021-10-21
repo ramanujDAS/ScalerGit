@@ -1,0 +1,41 @@
+{
+    "taxPlanList": [
+        {
+            "taxPlanCode": "00005",
+            "taxPlanName": "CGST 14% + SGST 14%+CESS 12%",
+            "taxPlanDetails": [
+                {
+                    "taxName": "CGST 14%",
+                    "taxType": "CGST",
+                    "taxPercent": "14",
+                    "isPercentBase": "1",
+                    "basedOn": "NET",
+                    "totCode": "",
+                    "applySequence": "1",
+                    "status": "C"
+                },
+                {
+                    "taxName": "SGST 14%",
+                    "taxType": "SGST",
+                    "taxPercent": "14",
+                    "isPercentBase": "1",
+                    "basedOn": "NET",
+                    "totCode": "",
+                    "applySequence": "2",
+                    "status": "C"
+                },
+                {
+                    "taxName": "CESS 12%",
+                    "taxType": "CESS",
+                    "taxPercent": "12",
+                    "isPercentBase": "1",
+                    "basedOn": "TOT",
+                    "totCode": "",
+                    "applySequence": "3",
+                    "status": "C"
+                }
+               
+            ]
+        }
+    ]
+}
